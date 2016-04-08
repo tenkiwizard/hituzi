@@ -1,3 +1,6 @@
+#
+# GitHub generated automatically below
+#
 *.rbc
 capybara-*.html
 .rspec
@@ -19,6 +22,7 @@ config/secrets.yml
 ## Environment normalization:
 /.bundle
 /vendor/bundle
+/vendor/bin
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
@@ -33,3 +37,15 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+#
+# `rails plugin new` command generated automatically below
+#
+.bundle/
+log/*.log
+pkg/
+spec/dummy/db/*.sqlite3
+spec/dummy/db/*.sqlite3-journal
+spec/dummy/log/*.log
+spec/dummy/tmp/
+spec/dummy/.sass-cache
